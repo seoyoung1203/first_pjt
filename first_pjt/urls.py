@@ -29,5 +29,7 @@ urlpatterns = [
     path('profile/<username>/', views.profile),
     path('cube/<int:number>/', views.cube),
 
-    path('articles/', views.articles)
+    path('articles/', views.articles),
+
+    # path('news/', view.news)
 ]

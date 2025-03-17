@@ -43,5 +43,5 @@ client > urls.py(어떤 경로로 받을지 -> path) > Views.py(실행시키고 
     {% endfor %}
     >> 잔고에서 파이썬 코드 활용법
 
-    . >> class (div 활용)
-    # >> id
+    . >> class + tab (div 활용)
+    # >> id 

@@ -41,7 +41,7 @@ def lotto(request):
 
 def profile(request, username):
     context = {
-        'username': username,
+        'asdf': username,
     }
 
     return render(request, 'profile.html', context)
@@ -68,3 +68,6 @@ def articles(request):
     }
 
     return render(request, 'articles.html', context)
+
+    # def news(request, ):
+    #     top_news = 
