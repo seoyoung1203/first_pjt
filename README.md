@@ -45,3 +45,10 @@ client > urls.py(어떤 경로로 받을지 -> path) > Views.py(실행시키고 
 
     . >> class + tab (div 활용)
     # >> id 
+
+
+form -> submit 버튼이 눌렸을 때 모든 값을 action으로 보냄 
+
+? 뒤는 >> 파라미터. 사용자가 입력한 정보
+
+/pong/

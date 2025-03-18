@@ -71,3 +71,20 @@ def articles(request):
 
     # def news(request, ):
     #     top_news = 
+
+def ping(request):
+    return render(request, 'ping.html')
+
+def pong(request):
+    # print(request.GET['title'])
+    # print(request.GET['content'])
+
+    title = request.GET.get('title')
+    content = request.GET.get('content')
+
+    context = {
+        'title': title,
+        'content': content,
+    }
+
+    return render(request, 'pong.html', context)

@@ -28,8 +28,12 @@ urlpatterns = [
     # variable routing
     path('profile/<username>/', views.profile),
     path('cube/<int:number>/', views.cube),
-
     path('articles/', views.articles),
 
     # path('news/', view.news)
+
+    # 빈도화지
+    path('ping/', views.ping),
+    # 사람들이 입력한 경로
+    path('pong/', views.pong),
 ]
